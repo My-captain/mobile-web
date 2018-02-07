@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" name="no-store" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>中心广场</title>
+    <link rel="stylesheet" href="../../static/css/component.css"/>
+    <link rel="stylesheet" href="../../static/css/swiper.min.css"/>
+    <link rel="stylesheet" href="../../static/css/home.css"/>
+    <link rel="stylesheet" href="../../static/css/facilitiesDescStyle.css">
+    <link rel="stylesheet" href="../../static/css/pop-style.css">
+</head>
+<body>
+<header id="header">
+    <div class="header" id="header_logo">
+        <img src="../../static/images/logo.jpg">
+    </div>
+    <div id="dl-menu" class="dl-menuwrapper">
+        <button id="dl-menu-button" class="menu-button-container"><img src="../../static/images/menu.png" alt=""></button>
+        <ul id="menu-container" class="dl-menu">
+            <li>
+                <a href="#">IWH详情</a>
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="../IWHBrief.html">IWH简介</a></li>
+                    <li><a href="../IWHLocation.html">IWH区位</a></li>
+                    <li><a href="../supportingFacilities.html">配套设施</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">核心特色</a>
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s/ZvBN-Yj8lrY4uh7DJusEjw">一站式服务</a></li>
+                    <li><a href="../fivePlatforms.html">五大业务平台</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s/Th8nAX3OvvjCLLKFNW-2og">优惠政策</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="../latestNews.html">最新资讯</a>
+            </li>
+            <li>
+                <a href="../partnersDesc.html">合作伙伴</a>
+            </li>
+            <li>
+                <a href="../contactInfo.html">联系我们</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<div id="desc-images" style="height: 76%">
+    <div id="desc-images-inner">
+        <div id="location-title">中心广场</div>
+        <div id="location-title-desc">
+            中心广场约1,500㎡，通过安装街道照明，改善地面铺装，布置绿化、街头小品等，创造令人赏心悦目的景观，环境优美，安全舒适
+            ，全方位打造一个商务、生活、休闲一体化的地方，还是举办户外活动的理想选择。
+        </div>
+        <div>
+            <img class="desc-image" src="../../static/images/facilitiesDesc/中心广场.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div id="partners"></div>
+<div class="footer">
+    <div class="footer-icon">
+        <div class="footer-icon-container" onclick="window.open('tel://02566106666','_self')">
+            <img src="../../static/images/tel.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" id="QR-code-button" >
+        <div class="footer-icon-container">
+            <img src="../../static/images/code.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" onclick="window.open('../form.html', '_self')">
+        <div class="footer-icon-container">
+            <img src="../../static/images/form.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" onclick="window.open('../home.html', '_self')">
+        <div class="footer-icon-container">
+            <img src="../../static/images/home.png" alt="">
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../../static/js/jquery.js"></script>
+<script type="text/javascript" src="../../static/js/popups.js"></script>
+<script>
+    $("#QR-code-button").click(function () {
+        jqalert({
+            title:'扫描二维码关注我们',
+//            content:'<img src="../static/images/QR_code.jpg" alt="">',
+            yestext:'确定',
+            flag:true
+        })
+    });
+</script>
+<script type="text/javascript" src="../../static/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="../../static/js/jquery.dlmenu.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#dl-menu').dlmenu();
+    });
+</script>
+</body>
+</html>

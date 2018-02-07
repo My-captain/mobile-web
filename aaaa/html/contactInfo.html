@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" name="no-store" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>商业配套</title>
+    <link rel="stylesheet" href="../static/css/component.css"/>
+    <link rel="stylesheet" href="../static/css/swiper.min.css"/>
+    <link rel="stylesheet" href="../static/css/home.css"/>
+    <link rel="stylesheet" href="../static/css/pop-style.css">
+    <link rel="stylesheet" href="../static/css/contact-info.css">
+</head>
+<body>
+<header id="header">
+    <div class="header" id="header_logo">
+        <img src="../static/images/logo.jpg">
+    </div>
+    <div id="dl-menu" class="dl-menuwrapper">
+        <button id="dl-menu-button" class="menu-button-container"><img src="../static/images/menu.png" alt=""></button>
+        <ul id="menu-container" class="dl-menu">
+            <li>
+                <a href="#">IWH详情</a>
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="./IWHBrief.html">IWH简介</a></li>
+                    <li><a href="./IWHLocation.html">IWH区位</a></li>
+                    <li><a href="./supportingFacilities.html">配套设施</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">核心特色</a>
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s/ZvBN-Yj8lrY4uh7DJusEjw">一站式服务</a></li>
+                    <li><a href="./fivePlatforms.html">五大业务平台</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s/Th8nAX3OvvjCLLKFNW-2og">优惠政策</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="./latestNews.html">最新资讯</a>
+            </li>
+            <li>
+                <a href="./partnersDesc.html">战略伙伴</a>
+            </li>
+            <li>
+                <a href="./contactInfo.html">联系我们</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+<div id="desc-images">
+    <div id="desc-images-inner">
+        <div id="contact-info-logo">
+            <img id="con-inf-logo-img" src="../static/images/logo.jpg" alt="">
+        </div>
+        <dl>
+            <!--<dt id="contact-info-title">国际水务中心</dt>-->
+            <br>
+            <dd class="fontSize">电话：+86 25 6610 6666</dd>
+            <dd class="fontSize">邮箱：<a href="mailto:NIWH@sembcorp.com" style="color:#666;">NIWH@sembcorp.com</a></dd>
+            <br>
+            <dd class="fontSize">产业发展中心：<span class="place1" onclick="window.open('http://api.map.baidu.com/marker?location=32.030729,118.707481&title=南京市建邺区新加坡•南京生态科技岛贤坤路1号江岛科创中心1F&output=html','_self')">南京市建邺区新加坡•南京生态科技岛贤坤路1号江岛科创中心1F</span>
+                <br>
+                <!-- <i class="iconfont place1">&#xe748;</i> -->
+            </dd>
+            <br>
+            <dd class="fontSize">项目所在地：<span class="place2" onclick="window.open('http://api.map.baidu.com/marker?location=32.045026,118.716279&title=南京市建邺区新加坡•南京生态科技岛环岛路与文武街交汇处&output=html','_self')">南京市建邺区新加坡•南京生态科技岛环岛路与文武街交汇处</span>
+                <br>
+                <!-- <i class="iconfont place2">&#xe748;</i> -->
+            </dd>
+
+
+        </dl>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-icon">
+        <div class="footer-icon-container" onclick="window.open('tel://02566106666','_self')">
+            <img src="../static/images/tel.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" id="QR-code-button" >
+        <div class="footer-icon-container">
+            <img src="../static/images/code.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" onclick="window.open('./form.html', '_self')">
+        <div class="footer-icon-container">
+            <img src="../static/images/form.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" onclick="window.open('./home.html', '_self')">
+        <div class="footer-icon-container">
+            <img src="../static/images/home.png" alt="">
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../static/js/jquery.js"></script>
+<script type="text/javascript" src="../static/js/popups.js"></script>
+<script>
+    $("#QR-code-button").click(function () {
+        jqalert({
+            title:'扫描二维码关注我们',
+            yestext:'确定',
+            flag: false
+        })
+    });
+</script>
+<script type="text/javascript" src="../static/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="../static/js/jquery.dlmenu.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#dl-menu').dlmenu();
+    });
+</script>
+</body>
+</html>

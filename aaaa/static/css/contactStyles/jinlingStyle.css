@@ -1,0 +1,59 @@
+#contact-us-container{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    margin: 5%;
+    overflow: hidden;
+}
+#contact-us-content{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#contact-us-title{
+    width: 80%;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #4d4848;
+}
+.about-list{
+    font-family: 'Open Sans',Microsoft Yahei,arial,sans-serif;
+}
+.about-list>div {
+    margin-bottom: 8px;
+    height: 30px;
+    line-height: 30px;
+}
+.about-list i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #00919c;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+    vertical-align: baseline;
+}
+.about-list span {
+    display: inline-block;
+    width: 88%;
+    background: -webkit-linear-gradient(left,#b0ddde,#c9e8e9,#f6fbfb);
+    background: -o-linear-gradient(left,#b0ddde,#c9e8e9,#f6fbfb);
+    background: -moz-linear-gradient(left,#b0ddde,#c9e8e9,#f6fbfb);
+    background: linear-gradient(left,#b0ddde,#c9e8e9,#f6fbfb);
+}
+.green-title-label{
+    font-weight: bold;
+    color: rgb(0, 108, 83);
+    margin-top: 5%;
+    font-size: 20px;
+}
+.word-desc{
+    color: #393a3f;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: justify;
+}

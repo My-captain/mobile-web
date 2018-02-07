@@ -1,0 +1,24 @@
+#back-button{
+    position:  absolute;
+    background: #fff;
+    width: 26%;
+    height: 45px;
+    /* line-height: 229%; */
+    /* line-height: 8%; */
+    /* vertical-align:  middle; */
+    text-align:  center;
+    left: 37%;
+    bottom: 4%;
+    border-radius: 6px;
+    color: #6d6b6b;
+    /* font-size: 22px; */
+    font-weight:  500;
+    z-index: 9999;
+    /* vertical-align:  middle; */
+}
+#back-label {
+    /* height: 64%; */
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 12.5px;
+}
