@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta http-equiv="Cache-Control" name="no-store" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>会议室</title>
+    <link rel="stylesheet" href="../../static/css/component.css"/>
+    <link rel="stylesheet" href="../../static/css/swiper.min.css"/>
+    <link rel="stylesheet" href="../../static/css/home.css"/>
+    <link rel="stylesheet" href="../../static/css/facilitiesDescStyle.css">
+    <link rel="stylesheet" href="../../static/css/pop-style.css">
+</head>
+<body>
+<header id="header">
+    <div class="header" id="header_logo" onclick="window.open('../home.html', '_self')">
+        <img src="../../static/images/logo.jpg">
+    </div>
+    <div id="dl-menu" class="dl-menuwrapper">
+        <button id="dl-menu-button" class="menu-button-container"><img src="../../static/images/menu.png" alt=""></button>
+        <ul id="menu-container" class="dl-menu">
+            <li>
+                <a href="#">IWH详情</a>
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="../IWHBrief.html">IWH简介</a></li>
+                    <li><a href="../IWHLocation.html">IWH区位</a></li>
+                    <li><a href="../supportingFacilities.html">配套设施</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">核心特色</a>
+                <ul class="dl-submenu">
+                    <li class="dl-back"><a href="#">返回上一级</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s/ZvBN-Yj8lrY4uh7DJusEjw">一站式服务</a></li>
+                    <li><a href="../fivePlatforms.html">五大业务平台</a></li>
+                    <li><a href="http://mp.weixin.qq.com/s/Th8nAX3OvvjCLLKFNW-2og">优惠政策</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="../latestNews.html">最新资讯</a>
+            </li>
+            <li>
+                <a href="../strategicPartners.html">合作机构</a>
+            </li>
+            <li>
+                <a href="../contactInfo.html">联系我们</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+
+<div id="desc-images" style="height: 76%;">
+    <div id="desc-images-inner">
+
+        <div id="location-title">会议室</div>
+        <div id="location-title-desc">
+            会议室对于日常办公来说必不可少，国际水务中心可提供多种规格的公共会议室，硬件配置齐全，租赁方式灵活，您可在此举办企业
+            会议、视频会议、培训等。同时，我们将很乐意为您提供企业接待、免费wifi、文印、茶水等服务，确保活动顺利进行。
+        </div>
+
+        <img src="../../static/images/facilitiesDesc/会议室1.jpg" alt="" class="desc-image">
+        <img src="../../static/images/facilitiesDesc/会议室2.jpg" alt="" class="desc-image">
+    </div>
+</div>
+
+<div id="partners"></div>
+<div id="nav-back-button" onclick="history.back()">
+    <div id="back-button-container">
+        <embed id="back-button" src="../../static/images/arrow-left.svg" type="">
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-icon">
+        <div class="footer-icon-container" onclick="window.open('tel://02566106666','_self')">
+            <img src="../../static/images/tel.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" id="QR-code-button" >
+        <div class="footer-icon-container">
+            <img src="../../static/images/code.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" onclick="window.open('../form.html', '_self')">
+        <div class="footer-icon-container">
+            <img src="../../static/images/form.png" alt="">
+        </div>
+    </div>
+    <div class="footer-icon" onclick="window.open('../home.html', '_self')">
+        <div class="footer-icon-container">
+            <img src="../../static/images/home.png" alt="">
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../../static/js/jquery.js"></script>
+<script type="text/javascript" src="../../static/js/popups.js"></script>
+<script>
+    $("#QR-code-button").click(function () {
+        jqalert({
+            title:'扫描二维码关注我们',
+//            content:'<img src="../static/images/QR_code.jpg" alt="">',
+            yestext:'确定',
+            flag: true
+        })
+    });
+</script>
+<script type="text/javascript" src="../../static/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="../../static/js/jquery.dlmenu.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#dl-menu').dlmenu();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+#back-button{
+    position:  absolute;
+    background: #fff;
+    width: 26%;
+    height: 45px;
+    /* line-height: 229%; */
+    /* line-height: 8%; */
+    /* vertical-align:  middle; */
+    text-align:  center;
+    left: 37%;
+    bottom: 4%;
+    border-radius: 6px;
+    color: #6d6b6b;
+    /* font-size: 22px; */
+    font-weight:  500;
+    z-index: 9999;
+    /* vertical-align:  middle; */
+}
+#back-label {
+    /* height: 64%; */
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 12.5px;
+}
+.partner-cell-name{
+    width: 90%;
+    margin: 0 auto;
+    /* margin-top: 12px; */
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align:  center;
+}
+.partner-cell-name-en{
+    width: 100%;
+    /* margin-top: 12px; */
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align:  center;
+    line-height: 1.4;
+    color: #bfbfbf;
+}
+.partner-cell-desc{
+    width: 88%;
+    margin:  0 auto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align:  justify;
+}
